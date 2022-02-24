@@ -39,7 +39,7 @@ pipeline {
             }
         }
 
-        stage('Build Deploy Code') {
+        stage('Builds Deploy Code') {
             when {
                 branch 'develop'
             }
